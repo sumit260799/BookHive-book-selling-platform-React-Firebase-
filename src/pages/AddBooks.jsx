@@ -17,6 +17,7 @@ export default function AddBooks() {
     setBookName("");
     setAboutBook("");
     setBookFiles("");
+    setBookPrice("");
   };
 
   useEffect(() => {

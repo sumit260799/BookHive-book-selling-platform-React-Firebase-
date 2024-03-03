@@ -25,10 +25,10 @@ import {
 import { getStorage, ref, uploadBytes, getDownloadURL } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAiMD1H3zfxYA3nhYLbLfnEqe_ghdJ0P5g",
-  authDomain: "my-app-506b9.firebaseapp.com",
-  projectId: "my-app-506b9",
-  storageBucket: "my-app-506b9.appspot.com",
+  apiKey: import.meta.env.VITE_API_KEY,
+  authDomain: import.meta.env.VITE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
   messagingSenderId: "338486179381",
   appId: "1:338486179381:web:ba4324d3cd6074df74a37c",
 };
